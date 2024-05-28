@@ -2,7 +2,7 @@ const OrderRow = ({ order }) => {
   return (
     <tr className="text-center">
       <td className="px-4 py-2 border text-blue-500">
-        <a href="#">{order.id}</a>
+        <p>{order.id}</p>
       </td>
 
       <td className="px-4 py-2 border">{order.tableNo}</td>
@@ -48,9 +48,7 @@ const OrderRow = ({ order }) => {
       <td className="px-4 py-2 border">{order.date}</td>
 
       <td className="px-4 py-2 border">
-        <a href="#" className="text-blue-500">
-          🔗
-        </a>
+        <p className="text-blue-500">🔗</p>
       </td>
     </tr>
   );
